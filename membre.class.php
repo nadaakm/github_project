@@ -12,7 +12,7 @@ public function envoyeremail($titre,$message)
 }
 public function bannir () {
     $this->actif=false;
-    $this->envoyeremail('vous etes bannis ','ne revenez plus!');
+    $this->envoyeremail('vous etes bannis ','ne revenez plus ici !');
 }
 public function getpseudo ()
 {
